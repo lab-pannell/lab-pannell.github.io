@@ -18,7 +18,7 @@ $link-hover-decoration: underline;
 
 // Fonts
 $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Cormorant Unicase', serif;
+$font-family-heading: 'Times new roman', serif;
 
 // Footer
 $footer-background-color: $primary;
@@ -26,7 +26,7 @@ $footer-text-color: $white;
 $sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $white;
 
-
+// Additionnal fonts
 @font-face {
 	font-family: "Cormorant Unicase";
 	src: url("../assets/fonts/CormorantUnicase-Regular.ttf");
