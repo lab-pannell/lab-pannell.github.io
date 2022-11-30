@@ -1,5 +1,5 @@
 ---
-title: Pannell Lab Overview
+title: Pannell Lab Overview // name displayed on the tab in the browser
 layout: home
 description: Ecology and Evolution of Plant Sexual Systems
 intro_image: "images/illustrations/banner.png"
@@ -8,6 +8,6 @@ intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# Pannell Lab Overview
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Ecology and Evolution of Plant Sexual Systems
