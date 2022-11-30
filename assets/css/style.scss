@@ -17,14 +17,8 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-// $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
- $font-family-base: {
-    font-family: F16;
-    src: url("/assets/fonts/Plante.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-$font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: "Plante", serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
