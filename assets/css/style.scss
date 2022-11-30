@@ -17,12 +17,8 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-@font-face {
-	font-family: "Plante";
-	src: url("../assets/fonts/Plante.ttf");
-};
 $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: font-face;
+$font-family-heading: Libre Baskerville, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
