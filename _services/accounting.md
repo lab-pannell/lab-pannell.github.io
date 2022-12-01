@@ -8,7 +8,7 @@ Much of our research aims to explain and understand transitions between combined
 
 *Mercurialis annua* displays dioecy (fully separate sexes), monoecy (self-fertile functional hermaphroditism) and androdioecy (the coexistence of males and hermaphrodites) and male sterility. M. annua has an assembled and annotated genome and shows many of the hallmarks of Y-chromosome degeneration. Interestingly, male-function loci regulating pollen production are not located on the Y chromosome, but the secondary sexual dimorphism influencing inflorescence architecture is Y-linked and has introgressed among related species, likely due to strong frequency-dependent selection. 
 
-Related projects are examining phenotypic changes in sex allocation, changes in gene expression, and the underlying genomic basis of these changes in experimental populations of M. annua in which mate availability has been manipulated.
+Related projects are examining phenotypic changes in sex allocation, changes in gene expression, and the underlying genomic basis of these changes in experimental populations of *M. annua* in which mate availability has been manipulated.
 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
