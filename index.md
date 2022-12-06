@@ -1,5 +1,5 @@
 ---
-title: Pannell Lab Overview // name displayed on the tab in the browser
+title: Pannell Lab
 layout: home
 description: Ecology and Evolution of Plant Sexual Systems
 intro_image: "images/illustrations/banner.png"
