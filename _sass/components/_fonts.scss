@@ -6,9 +6,6 @@
 	src: local(''), url('../fonts/playfair-display.woff2') format('woff2');
 }
 @font-face {
-	font-family: "Cormorant Unicase";
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local(''), url("../fonts/CormorantUnicase-Regular.woff2") format('woff2');
+  font-family: "Merriweather";
+  src: url("../assets/fonts/font/Merriweather-Regular.tff");
 }
