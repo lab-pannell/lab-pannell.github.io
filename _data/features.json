@@ -25,5 +25,14 @@
       "width": 80,
       "height": 80
     }
+  },
+  {
+    "title": "Other random thing",
+    "description": "Lorem ipsum.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
   }
 ]
