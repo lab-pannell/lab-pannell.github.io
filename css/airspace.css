@@ -116,7 +116,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #5b8059, #5b8059);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 #slider .block {
   color: #E3E3E4;
@@ -377,7 +377,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #5b8059, #2e482d 70%);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -625,7 +625,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #5b8059, #2e482d 70%);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 #slider-contact .block {
   color: #E3E3E4;
