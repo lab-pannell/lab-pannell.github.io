@@ -116,7 +116,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #5b8059, #5b8059);
-  opacity: 0.5;
+  opacity: 0.05;
 }
 #slider .block {
   color: #E3E3E4;
