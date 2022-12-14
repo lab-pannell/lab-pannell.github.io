@@ -624,8 +624,8 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #5b8059, #99c797 50%);
-  opacity: 0.0;
+  background: linear-gradient(to left, #5b8059, #99c797 5%);
+  opacity: 0.05;
 }
 #slider-contact .block {
   color: #E3E3E4;
