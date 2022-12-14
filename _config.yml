@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of cb3e124... V
 exclude:
   - "/vendor/"
   - "Gemfile"
@@ -11,6 +15,10 @@ keep_files:
   - ".git"
   - ".gitignore"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of cb3e124... V
 # Site settings
 title: Airspace
 subtitle: "A free HTML5 agency template"
