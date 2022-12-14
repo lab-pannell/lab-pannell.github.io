@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="38.254265mm"
-   height="9.2035122mm"
-   viewBox="0 0 38.254265 9.2035122"
+   width="57.381401mm"
+   height="13.805268mm"
+   viewBox="0 0 57.381401 13.805268"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
@@ -31,8 +31,8 @@
      inkscape:snap-smooth-nodes="true"
      inkscape:object-paths="true"
      inkscape:zoom="4"
-     inkscape:cx="59.25"
-     inkscape:cy="25.5"
+     inkscape:cx="93"
+     inkscape:cy="34.25"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -824,7 +824,7 @@
        xlink:href="#linearGradient21202"
        id="linearGradient1692"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="rotate(-180,532.65215,329.84618)"
+       gradientTransform="rotate(180,532.65215,329.84618)"
        x1="408.13788"
        y1="113.57584"
        x2="423.28098"
@@ -883,10 +883,10 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-1527.5588,-783.17034)">
+     transform="translate(-1517.9952,-780.86946)">
     <g
        id="g1432"
-       transform="matrix(0.111,0,0,0.111,1375.0038,700.32939)">
+       transform="matrix(0.1665,0,0,0.1665,1289.1627,656.60804)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.1914px;line-height:125%;font-family:'Merriweather Sans';-inkscape-font-specification:'Merriweather Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#224529;fill-opacity:1;stroke:none;stroke-width:0.264581"
