@@ -169,22 +169,18 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 90px 0;
 }
 #service .service-item {
-  align-items: center;
   padding-bottom: 30px;
 }
 #service .service-item i {
-  align-items: center;
   font-size: 60px;
   color: #4A4656;
 }
 #service .service-item h4 {
-  align-items: center;
   padding-top: 20px;
   margin: 0;
   color: #666;
 }
 #service .service-item p {
-  align-items: center;
   color: #888;
   padding-top: 10px;
   margin: 0;
