@@ -7,96 +7,23 @@ permalink: /team/
 <script src="https://kit.fontawesome.com/ac035a7f2d.js" crossorigin="anonymous"></script>
 
 <style>
-.our-team{
-    text-align: center;
-    margin-bottom: 100px;
-    z-index: 1;
-    position: relative;
+.team-member {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 5px solid #0000ff; /* blue border */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 5px 5px 5px #888888; /* shadow */
+  margin: 10px; /* space between team members */
+  padding: 20px; /* space within the team member box */
 }
-.our-team .pic{
-    border-radius: 50%;
-    overflow: hidden;
-    position: relative;
+
+.team-member img {
+  width: 100px; /* image width */
+  height: 100px; /* image height */
+  border-radius: 50%; /* rounded image */
+  margin-right: 20px; /* space between image and text */
 }
-.our-team .pic:after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: rgba(3, 37, 5, 0.7);
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all 0.5s ease 0s;
-}
-.our-team:hover .pic:after{ opacity: 1; }
-.our-team .pic img{
-    width: 100%;
-    height: auto;
-}
-.our-team .social{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    opacity: 0;
-    position: absolute;
-    top: 45%;
-    left: 0;
-    z-index: 1;
-    transition: all 0.5s ease 0s;
-}
-.our-team:hover .social{ opacity: 1; }
-.our-team .social li{ display: inline-block; }
-.our-team .social li a{
-    display: block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    font-size: 15px;
-    color: #fff;
-    margin-right: 10px;
-    transition: all 0.5s ease 0s;
-}
-.our-team .social li a:hover{
-    background: #fff;
-    color: #5b8059;
-}
-.our-team .team-content{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 1px dotted #ddd;
-    position: absolute;
-    bottom: -70px;
-    left: 0;
-    z-index: -1;
-    transition: all 0.5s ease 0s;
-}
-.our-team:hover .team-content{ border: 3px dotted #5b8059; }
-.our-team .team-info{
-    width: 100%;
-    color: #464646;
-    position: absolute;
-    bottom: 12px;
-    left: 0;
-}
-.our-team .title{
-    font-size: 20px;
-    font-weight: 600;
-    color: #464646;
-    margin: 0 0 5px 0;
-    transition: all 0.5s ease 0s;
-}
-.our-team:hover .title{ color: #5b8059; }
-.our-team .post{
-    display: block;
-    font-size: 14px;
-    color: #464646;
-}  
 </style>
 
 
@@ -113,194 +40,23 @@ permalink: /team/
         </div>
     </div>
 </section>
+
     <!-- Portfolio Start -->
-<section id="portfolio-work">
-
-
-
-
-  <!-- GROUP LEADER -->
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="block">
-                <h1>Group leader</h1>
-                <p>Don’t just take our word for it. Check out some of our latest work.</p>
-            </div>
-        </div>
+<section id="portfolio-work"> 
+    <h1>Our Team</h1>
+    <div class="team-member">
+      <img src="john-doe.jpg" alt="John Doe">
+      <h2>John Doe</h2>
+      <p>John is a principal investigator with expertise in molecular biology. He has published several papers on the regulation of gene expression in bacterial cells.</p>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="our-team">
-                <div class="pic">
-                    <img src="{{ site.baseurl }}/img/team/John.png">
-                    <ul class="social">
-                      <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                      <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                      <li><a href="#" class="fa-brands fa-google"></a></li>
-                      <li><a href="#" class="fab fa-linkedin"></a></li>
-                  </ul>
-                </div>
-                <div class="team-content">
-                    <div class="team-info">
-                        <h3 class="title">Williamson</h3>
-                        <span class="post">Web Developer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="team-member">
+      <img src="jane-doe.jpg" alt="Jane Doe">
+      <h2>Jane Doe</h2>
+      <p>Jane is a postdoctoral researcher with a background in genetics. She is currently working on a project to identify genetic factors that influence disease susceptibility in humans.</p>
     </div>
-  </div>
-
-  <!-- POST-DOCS -->
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="block">
-                <h1>Post-Docs</h1>
-                <p>Don’t just take our word for it. Check out some of our latest work.</p>
-            </div>
-        </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="our-team">
-                <div class="pic">
-                    <img src="{{ site.baseurl }}/img/team/Thomas.png">
-                    <ul class="social">
-                      <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                      <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                      <li><a href="#" class="fa-brands fa-google"></a></li>
-                      <li><a href="#" class="fab fa-linkedin"></a></li>
-                  </ul>
-                </div>
-                <div class="team-content">
-                    <div class="team-info">
-                        <h3 class="title">Williamson</h3>
-                        <span class="post">Web Developer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="our-team">
-              <div class="pic">
-                  <img src="{{ site.baseurl }}/img/team/Ester.png">
-                  <ul class="social">
-                    <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                    <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                    <li><a href="#" class="fa-brands fa-google"></a></li>
-                    <li><a href="#" class="fab fa-linkedin"></a></li>
-                </ul>
-              </div>
-              <div class="team-content">
-                  <div class="team-info">
-                      <h3 class="title">Williamson</h3>
-                      <span class="post">Web Developer</span>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="our-team">
-            <div class="pic">
-                <img src="{{ site.baseurl }}/img/team/Shengman.png">
-                <ul class="social">
-                  <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                  <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                  <li><a href="#" class="fa-brands fa-google"></a></li>
-                  <li><a href="#" class="fab fa-linkedin"></a></li>
-              </ul>
-            </div>
-            <div class="team-content">
-                <div class="team-info">
-                    <h3 class="title">Williamson</h3>
-                    <span class="post">Web Developer</span>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- GRADUATE STUDENTS -->
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="block">
-                <h1>Graduate Students</h1>
-                <p>Don’t just take our word for it. Check out some of our latest work.</p>
-            </div>
-        </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="our-team">
-                <div class="pic">
-                    <img src="{{ site.baseurl }}/img/team/Kai.png">
-                    <ul class="social">
-                      <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                      <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                      <li><a href="#" class="fa-brands fa-google"></a></li>
-                      <li><a href="#" class="fab fa-linkedin"></a></li>
-                  </ul>
-                </div>
-                <div class="team-content">
-                    <div class="team-info">
-                        <h3 class="title">Williamson</h3>
-                        <span class="post">Web Developer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-          <div class="our-team">
-              <div class="pic">
-                  <img src="{{ site.baseurl }}/img/team/Thu.png">
-                  <ul class="social">
-                    <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                    <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                    <li><a href="#" class="fa-brands fa-google"></a></li>
-                    <li><a href="#" class="fab fa-linkedin"></a></li>
-                </ul>
-              </div>
-              <div class="team-content">
-                  <div class="team-info">
-                      <h3 class="title">Williamson</h3>
-                      <span class="post">Web Developer</span>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="our-team">
-            <div class="pic">
-                <img src="{{ site.baseurl }}/img/team/Ehouarn.png">
-                <ul class="social">
-                  <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                  <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                  <li><a href="#" class="fa-brands fa-google"></a></li>
-                  <li><a href="#" class="fab fa-linkedin"></a></li>
-              </ul>
-            </div>
-            <div class="team-content">
-                <div class="team-info">
-                    <h3 class="title">Williamson</h3>
-                    <span class="post">Web Developer</span>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- Add additional team members here -->
 </section>
+
 
 <!-- Call to action Start -->
 <section id="call-to-action">
