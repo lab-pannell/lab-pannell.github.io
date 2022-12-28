@@ -97,6 +97,15 @@ permalink: /team/
     font-size: 14px;
     color: #464646;
 }  
+
+.team-description {
+  float: right; /* float the description to the right */
+  width: 50%; /* set the width to 50% of the parent element */
+  padding: 10px; /* add some padding */
+  color: #333; /* set the text color to dark gray */
+  font-size: 14px; /* set the font size to 14px */
+}
+
 </style>
 
 
@@ -132,27 +141,31 @@ permalink: /team/
   </div>
   <div class="container">
     <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="our-team">
-                <div class="pic">
-                    <img src="{{ site.baseurl }}/img/team/John.png">
-                    <ul class="social">
-                      <li><a href="#" class="fa-solid fa-building-columns"></a></li>
-                      <li><a href="#" class="fa-brands fa-orcid"></a></li>
-                      <li><a href="#" class="fa-brands fa-google"></a></li>
-                      <li><a href="#" class="fab fa-linkedin"></a></li>
-                  </ul>
-                </div>
-                <div class="team-content">
-                    <div class="team-info">
-                        <h3 class="title">Williamson</h3>
-                        <span class="post">Web Developer</span>
-                    </div>
-                </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="our-team">
+          <div class="pic">
+            <img src="{{ site.baseurl }}/img/team/John.png">
+            <ul class="social">
+              <li><a href="#" class="fa-solid fa-building-columns"></a></li>
+              <li><a href="#" class="fa-brands fa-orcid"></a></li>
+              <li><a href="#" class="fa-brands fa-google"></a></li>
+              <li><a href="#" class="fab fa-linkedin"></a></li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <div class="team-info">
+              <h3 class="title">Williamson</h3>
+              <span class="post">Web Developer</span>
             </div>
+          </div>
+          <div class="team-description" style="float: right;">
+            <p>Williamson is a web developer with expertise in HTML, CSS, and JavaScript. He has worked on several projects to create responsive and user-friendly websites.</p>
+          </div>
         </div>
+      </div>
     </div>
   </div>
+  
 
   <!-- POST-DOCS -->
   <div class="container">
