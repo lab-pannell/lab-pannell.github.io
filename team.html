@@ -7,30 +7,35 @@ permalink: /team/
 <script src="https://kit.fontawesome.com/ac035a7f2d.js" crossorigin="anonymous"></script>
 
 <style>
-    .team-member {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    box-shadow: 5px 5px 5px #888888; /* shadow */
-    border-radius: 10px; /* rounded corners */
-    margin: 10px; /* space between team members */
-    padding: 20px; /* space within the team member box */
-    }
+      .team-member {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 5px 5px 5px #888888; /* shadow */
+        border-radius: 10px; /* rounded corners */
+        margin: 10px; /* space between team members */
+        padding: 20px; /* space within the team member box */
+        border: 1px solid #006400; /* thin, dark green border */
+      }
 
-    .team-member img {
-    width: 100px; /* image width */
-    height: 100px; /* image height */
-    border-radius: 50%; /* rounded image */
-    margin-right: 20px; /* space between image and text */
-    }
+      .team-member img {
+        width: 100px; /* image width */
+        height: 100px; /* image height */
+        border-radius: 50%; /* rounded image */
+        margin-right: 20px; /* space between image and text */
+      }
 
-    .team-member h2 {
-    margin-bottom: 5px; /* space between name and position */
-    }
+      .team-member h2 {
+        margin-bottom: 5px; /* space between name and position */
+        color: #006400; /* dark green color */
+      }
 
-    .team-member p {
-    margin-top: 10px; /* space between position and description */
-    }
+      .team-member p {
+        margin-top: 10px; /* space between position and description */
+        color: #90ee90; /* light green color */
+        font-style: italic; /* italic font style */
+      }
+
 </style>
 
 
@@ -50,18 +55,19 @@ permalink: /team/
 
     <!-- Portfolio Start -->
 <section id="portfolio-work"> 
+
     <h1>Our Team</h1>
     <div class="team-member">
-      <img src="{{ site.baseurl }}/img/team/John.png" alt="John Doe">
-      <div>
+        <img src="{{ site.baseurl }}/img/team/John.png" alt="John Doe">
+        <div>
         <h2>John Doe</h2>
         <p>Principal Investigator</p>
         <p>John is a principal investigator with expertise in molecular biology. He has published several papers on the regulation of gene expression in bacterial cells.</p>
       </div>
     </div>
     <div class="team-member">
-      <img src="{{ site.baseurl }}/img/team/Thomas.png" alt="Jane Doe">
-      <div>
+        <img src="{{ site.baseurl }}/img/team/Thomas.png" alt="Jane Doe">
+        <div>
         <h2>Jane Doe</h2>
         <p>Postdoctoral Researcher</p>
         <p>Jane is a postdoctoral researcher with a background in genetics. She is currently working on a project to identify genetic factors that influence disease susceptibility in humans.</p>
