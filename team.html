@@ -6,106 +6,95 @@ permalink: /team/
 
 
 <style>
-*{
-  font-family:Merriweather, sans-serif;
+.our-team{
+    text-align: center;
+    margin-bottom: 100px;
+    z-index: 1;
+    position: relative;
 }
-.text-blk{
-  margin-top:0px;
-  margin-right:0px;
-  margin-bottom:0px;
-  margin-left:0px;
-  line-height:25px;
+.our-team .pic{
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
 }
-.responsive-container-block{
-  min-height:75px;
-  height:fit-content;
-  width:100%;
-  display:flex;
-  flex-wrap:wrap;
-  margin-top:0px;
-  margin-right:auto;
-  margin-bottom:0px;
-  margin-left:auto;
-  justify-content:flex-start;
+.our-team .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
 }
-.container-block{
-  min-height:75px;
-  height:fit-content;
-  width:100%;
-  padding-top:10px;
-  padding-right:10px;
-  padding-bottom:10px;
-  padding-left:10px;
-  display:block;
+.our-team:hover .pic:after{ opacity: 1; }
+.our-team .pic img{
+    width: 100%;
+    height: auto;
 }
-.responsive-cell-block{
-  min-height:75px;
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
 }
-.container{
-  max-width:1380px;
-  margin-top:80px;
-  margin-right:auto;
-  margin-bottom:80px;
-  margin-left:auto;
-  padding-top:0px;
-  padding-right:30px;
-  padding-bottom:0px;
-  padding-left:30px;
+.our-team:hover .social{ opacity: 1; }
+.our-team .social li{ display: inline-block; }
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.5s ease 0s;
 }
-.team-head-text{
-  font-size:48px;
-  line-height:50px;
-  font-weight:900;
-  text-align:center;
-  margin-top:0px;
-  margin-right:0px;
-  margin-bottom:70px;
-  margin-left:0px;
+.our-team .social li a:hover{
+    background: #fff;
+    color: #000;
 }
-.name{
-  font-size:18px;
-  margin-top:11px;
-  margin-right:0px;
-  margin-bottom:0px;
-  margin-left:0px;
-  font-weight:700;
+.our-team .team-content{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dotted #ddd;
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
 }
-.position{
-  margin-top:5px;
-  margin-right:0px;
-  margin-bottom:0px;
-  margin-left:0px;
+.our-team:hover .team-content{ border: 2px dotted #00adae; }
+.our-team .team-info{
+    width: 100%;
+    color: #464646;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
 }
-.team-card-container{
-  width:263px;
-  margin-top:0px;
-  margin-right:15px;
-  margin-bottom:30px;
-  margin-left:15px;
+.our-team .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #464646;
+    margin: 0 0 5px 0;
+    transition: all 0.5s ease 0s;
 }
-.teamcard-container{
-  justify-content:space-evenly;
-}
-.team-img-wrapper{
-  border-top-left-radius:6px;
-  border-top-right-radius:6px;
-  border-bottom-right-radius:6px;
-  border-bottom-left-radius:6px;
-}
-.team-img{
-  max-width:100%;
-}
-@media (max-width: 500px){
-  .team-card-container{
-    margin-top:0px;
-    margin-right:0px;
-    margin-bottom:30px;
-    margin-left:0px;
-    width:100%;
-  }
-  .team-img{
-    width:100%;
-  }
+.our-team:hover .title{ color: #00adae; }
+.our-team .post{
+    display: block;
+    font-size: 14px;
+    color: #464646;
 }  
 </style>
 
@@ -126,167 +115,48 @@ permalink: /team/
 </section>
     <!-- Portfolio Start -->
 <section id="portfolio-work">
- <div class="container-block container">
-  <p class="text-blk team-head-text">Our Team
-  </p>
-  <div class="responsive-container-block teamcard-container">
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg" class="team-img" />
+  <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="images/img-1.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-twitter"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <div class="team-info">
+                        <h3 class="title">Williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
+ 
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="images/img-2.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-twitter"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <div class="team-info">
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft13.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft14.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft13.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft14.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft13.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft14.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft12.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft13.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="responsive-cell-block wk-desk-3 wk-mobile-12 wk-tab-4 wk-ipadp-4 team-card-container">
-      <div class="team-card">
-        <div class="team-img-wrapper">
-          <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ft14.svg" class="team-img" />
-        </div>
-        <div class="team-card-content">
-          <p class="text-blk name">Roger Lubin
-          </p>
-          <p class="text-blk position">CEO
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 </section>
 
