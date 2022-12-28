@@ -52,8 +52,7 @@ permalink: /team/
 .our-team .social li a{
     display: block;
     width: 30px;
-    display: block;
-    overflow: auto;
+    height: 30px;
     line-height: 30px;
     border-radius: 50%;
     border: 1px solid #fff;
@@ -68,7 +67,8 @@ permalink: /team/
 }
 .our-team .team-content{
     width: 100%;
-    height: 100%;
+    display: block;
+    overflow: auto;
     border-radius: 5%;
     border: 2px dotted #ddd;
     position: absolute;
@@ -76,7 +76,6 @@ permalink: /team/
     left: 0;
     z-index: -1;
     transition: all 0.5s ease 0s;
-    padding: 50px;
 }
 .our-team:hover .team-content{ border: 2px dotted #5b8059; }
 .our-team .team-info{
