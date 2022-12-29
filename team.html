@@ -93,6 +93,49 @@ permalink: /team/
     .our-team{ margin-bottom: 30px; }
 }
 
+
+
+
+
+
+
+
+
+
+
+.content {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+}
+
+#col-rev {
+  flex-direction: column-reverse;
+}
+
+#row-rev {
+  flex-direction: row-reverse;
+}
+
+.red {
+  background-color: red;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+
 </style>
 
 
@@ -265,30 +308,12 @@ permalink: /team/
 </div>
 
 
-
-<div class="container d-flex flex-direction-column flex-wrap: wrap;">
-  <div class="row">
-    <div class="col-6">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amett. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-    </div>
-    <div class="col-6">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin orm dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pm dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pnare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-6">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesqenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-    </div>
-    <div class="col-6">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. m dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pm dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pm dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pEtiam finibus odio quis feugiat facilisis.</p>
-    </div>
-  </div>
+<h4>This is a Column</h4>
+<div id="col" class="content">
+  <div class="box red">A</div>
+  <div class="box lightblue">B</div>
+  <div class="box yellow">C</div>
 </div>
-
 
 
 </section>
