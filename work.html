@@ -39,7 +39,7 @@ permalink: /work/
                   {% for post in site.posts %}
                     <li class="{{ post.tag }}">
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
-                        <img src="{{ site.baseurl }}/img/portfolio/work1.jpg" alt="">
+                        <img src="{{ post.image }}" alt="">
                         <div class="overly">
                           <div class="position-center">
                             <h2>{{ post.title }}</h2>
