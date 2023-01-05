@@ -491,13 +491,15 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 #portfolio-work .block .portfolio-contant ul li a p {
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-size: 15px;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
