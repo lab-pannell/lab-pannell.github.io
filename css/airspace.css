@@ -473,6 +473,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 32.22%;
   overflow: hidden;
   margin: 6px;
+  padding: 20px 20px 20px 20px;
   position: relative;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
@@ -489,6 +490,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
   color: #fff;
+  
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
   font-size: 22px;
