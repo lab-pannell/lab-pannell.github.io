@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "This post demonstrates post content styles"
+title: Welcome to jekyll!
+subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
 author: "Bart Simpson"
-meta: "Springfield"
+date: 2016-07-20 21:11:27
 tag: "mix Graphic"
 ---
 

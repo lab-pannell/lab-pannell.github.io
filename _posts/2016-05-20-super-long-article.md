@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Some articles are just so long they deserve a really long title to see if things will break well".
+title: Welcome to jekyll!
+subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
+author: "Bart Simpson"
+date: 2016-05-20 21:11:27
 tag: "mix Graphic"
 ---
 
