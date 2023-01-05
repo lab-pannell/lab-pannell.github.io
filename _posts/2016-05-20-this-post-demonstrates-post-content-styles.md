@@ -5,7 +5,7 @@ subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb
 author: "Bart Simpson"
 date: 2016-07-20 21:11:27
 tag: "mix Graphic"
-image: "{{ site.baseurl }}/img/portfolio/work3.jpg"
+image: "/img/portfolio/work3.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.

@@ -5,7 +5,7 @@ subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb
 author: "Bart Simpson"
 date: 2016-04-20 21:11:27
 tag: "mix Graphic"
-image: "{{ site.baseurl }}/img/portfolio/work1.jpg"
+image: "/img/portfolio/work1.jpg"
 ---
 
 Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
