@@ -474,6 +474,7 @@ font header .navbar-default .navbar-nav li a:hover {
   overflow: hidden;
   margin: 6px;
   position: relative;
+  opacity: 1;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
