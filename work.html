@@ -38,8 +38,8 @@ permalink: /work/
 
                   {% for post in site.posts %}
                     <li class="{{ post.tag }}">
-                      <h3 style = "padding-left: 20px; padding-right: 20px;">{{ post.title }}</h3>
-                      <p style = "padding-left: 20px; padding-right: 20px;" class="post-date">{{ post.date | date_to_long_string }}</p>
+                      <h3>{{ post.title }}</h3>
+                      <p class="post-date">{{ post.date | date_to_long_string }}</p>
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
                         <img src="{{ post.image | prepend: site.baseurl }}" alt="">
                         <div class="overly">
@@ -48,7 +48,7 @@ permalink: /work/
                           </div>
                         </div>
                       </a>
-                    </li>
+                  </li>
                   {% endfor %}
 
                 </ul>
