@@ -37,7 +37,6 @@ permalink: /work/
                 <ul id="portfolio-contant-active">
 
                   {% for post in site.posts %}
-                  <div class="container">
                     <li class="{{ post.tag }}">
                       <h3 style = "padding-left: 20px; padding-right: 20px;">{{ post.title }}</h3>
                       <p style = "padding-left: 20px; padding-right: 20px;" class="post-date">{{ post.date | date_to_long_string }}</p>
@@ -50,7 +49,6 @@ permalink: /work/
                         </div>
                       </a>
                     </li>
-                  </div>
                   {% endfor %}
 
                 </ul>
