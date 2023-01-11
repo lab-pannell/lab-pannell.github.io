@@ -191,7 +191,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/banner14.jpg") no-repeat;
+  background: url("../img/banner14.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
