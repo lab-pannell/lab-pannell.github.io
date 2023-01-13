@@ -35,7 +35,7 @@ permalink: /work/
                 <ul id="portfolio-contant-active">
 
                   {% for post in site.posts %}
-                    <li class="{{ post.tag }}">
+                    <li class="{{ post.tag }}" style="padding: 50px 50px 50px 50px;">
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
                         <img src="{{ post.image | prepend: site.baseurl }}" alt="" style="border-radius: 100% 100% 0% 0%;">
                         <div class="overly">
