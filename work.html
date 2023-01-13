@@ -41,10 +41,10 @@ permalink: /work/
                         <div class="overly">
                           <p>Read more</p>
                         </div>
-                        <h3 style="padding: 0px 20px;">{{ post.title }}</h3>
-                        <p style="padding: 0px 20px;" class="post-date">{{ post.date | date_to_long_string }}</p>
-                        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
                       </a>
+                      <h3 style="padding: 0px 20px;">{{ post.title }}</h3>
+                      <p style="padding: 0px 20px;" class="post-date">{{ post.date | date_to_long_string }}</p>
+                      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
                   </li>
                   {% endfor %}
 
