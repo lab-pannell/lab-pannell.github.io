@@ -37,7 +37,7 @@ permalink: /work/
                   {% for post in site.posts %}
                     <li class="{{ post.tag }}">
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
-                        <img src="{{ post.image | prepend: site.baseurl }}" alt="">
+                        <img src="{{ post.image | prepend: site.baseurl }}" alt="" style="border-radius: 100% 100% 0% 0%;">
                         <div class="overly">
                           <p>Read more</p>
                         </div>
