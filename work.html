@@ -31,11 +31,11 @@ permalink: /work/
                   <li class="filter" data-filter=".Various">Various</li>
               </ul>
               </div>
-              <div class="portfolio-contant" style="border-radius: 100% 100% 0% 0%;">
+              <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
 
                   {% for post in site.posts %}
-                    <li class="{{ post.tag }}" style="padding: 50px 50px 50px 50px;">
+                    <li class="{{ post.tag }}" style="padding: 15px 15px 15px 15px;">
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
                         <img src="{{ post.image | prepend: site.baseurl }}" alt="" style="border-radius: 100% 100% 0% 0%;">
                         <div class="overly">
