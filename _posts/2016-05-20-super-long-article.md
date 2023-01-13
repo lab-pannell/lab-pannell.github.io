@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Welcome to jekyll!
-subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
 author: "Bart Simpson"
 date: 2016-05-20 21:11:27
-tag: "mix Graphic"
+tag: "mix Various"
 image: "/img/blog/blog1.png"
 ---
 
