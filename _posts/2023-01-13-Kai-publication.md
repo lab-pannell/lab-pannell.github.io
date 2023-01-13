@@ -2,7 +2,7 @@
 layout: post
 title: Congratulations to Kai, a new article published!
 author: "Ehouarn Le Faou"
-date: 2023-01-12
+date: 2023-01-13
 tag: "mix Publication"
 image: "/img/blog/blog1.png"
 ---
