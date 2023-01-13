@@ -23,14 +23,6 @@ permalink: /blog/
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
   <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 </div>
-
-
-
-  <img src="{{ post.image }}" alt="{{ post.title }}">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-
 {% endfor %}
 
 
