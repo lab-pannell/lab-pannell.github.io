@@ -17,14 +17,20 @@ permalink: /blog/
   </div>
 </section>
 {% for post in site.posts %}
-<div class="post-area">
+<div class="col-md-12">
   <img src="{{ post.image }}" alt="{{ post.title }}">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
+  <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 </div>
+
+
+
+  <img src="{{ post.image }}" alt="{{ post.title }}">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
+  <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+
 {% endfor %}
 
 
