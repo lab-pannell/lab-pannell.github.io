@@ -92,12 +92,7 @@ header .navbar-default .navbar-nav li a {
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
-ul ul {
-    display: none;
-}
-ul ul.visible {
-  display: block;
-}
+
 
 /*---------------------------------------------
 					Index Start
