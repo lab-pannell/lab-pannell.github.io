@@ -17,16 +17,6 @@ permalink: /blog/
   </div>
 </section>
 {% for post in site.posts %}
-<div class="col-md-12">
-  <img src="{{ post.image }}" alt="{{ post.title }}">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-</div>
-{% endfor %}
-
-
-<!-- {% for post in site.posts %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
@@ -34,7 +24,7 @@ permalink: /blog/
     {{ post.content | strip_html | truncatewords: 50 }}
   </p>
 </div>
-{% endfor %} -->
+{% endfor %}
 
 <!-- Call to action Start -->
 <section id="call-to-action">

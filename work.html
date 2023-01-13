@@ -36,15 +36,14 @@ permalink: /work/
 
                   {% for post in site.posts %}
                     <li class="{{ post.tag }}">
-                      <h3 style="padding: 0px 20px;">{{ post.title }}</h3>
-                      <p style="padding: 0px 20px;" class="post-date">{{ post.date | date_to_long_string }}</p>
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
                         <img src="{{ post.image | prepend: site.baseurl }}" alt="">
                         <div class="overly">
-                          <div class="position-center">
-                            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-                          </div>
+                          <p>Read more</p>
                         </div>
+                        <h3 style="padding: 0px 20px;">{{ post.title }}</h3>
+                        <p style="padding: 0px 20px;" class="post-date">{{ post.date | date_to_long_string }}</p>
+                        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
                       </a>
                   </li>
                   {% endfor %}
