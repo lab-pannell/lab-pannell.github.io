@@ -1,0 +1,17 @@
+---
+layout: post
+title: Welcome to Pannell lab website!
+author: "Bart Simpson"
+date: 2023-01-13 21:11:27
+tag: "mix Various"
+image: "/img/blog/blog2.png"
+---
+
+Welcome to the new website of the Pannell Lab! We are thrilled to launch this platform, which will keep you informed about all the latest news, updates, and research findings from our group.
+
+Our research is dedicated to understanding the complexities of sexual systems and their implications for mating, resource allocation, demography, and the evolution of the genome and transcriptome, with a particular focus on sex chromosomes. We use a combination of theory, wet-lab work, bioinformatics, and fieldwork to study these topics, and our main focus is on the European annual plant <i>Mercurialis annua</i>, which displays different sexual systems such as dioecy, monoecy, androdioecy.
+
+This website will be the go-to place for all things Pannell Lab. You can find information about our research projects, the latest publications from our group, and updates on upcoming events and conferences. We will also be sharing our insights and findings on various topics related to sexual systems and evolution.
+
+Thank you for visiting our website, and we look forward to keeping you informed about the exciting research we are undertaking.
+
