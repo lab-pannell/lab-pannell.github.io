@@ -475,9 +475,9 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 6px;
   position: relative;
 }
-/* #portfolio-work .block .portfolio-contant ul li:hover .overly {
-  opacity: 1;
-} */
+#portfolio-work .block .portfolio-contant ul li:hover .overly {
+  filter: grayscale(100%);
+}
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
   position: absolute;
   top: 50%;
@@ -512,12 +512,7 @@ font header .navbar-default .navbar-nav li a:hover {
   height: auto;
 }
 #portfolio-work .block .portfolio-contant .overly {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
