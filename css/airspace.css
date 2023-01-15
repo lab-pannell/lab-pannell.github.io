@@ -107,26 +107,7 @@ header .sub-menu li {
 header .sub-menu li a {
   color: #000;
 }
-header::-webkit-scrollbar {
-  width: 0.2em;
-  background-color: #F5F5F5;
-}
-header::-webkit-scrollbar-thumb {
-  background-color: #000000;
-}
-.scroll-indicator {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid black;
-}
-.scrolled .scroll-indicator {
-  transform: rotate(180deg);
-}
+
 
 /*---------------------------------------------
 					Index Start
