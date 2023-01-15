@@ -69,6 +69,8 @@ a:active {
 header {
   background: #fff;
   padding: 20px 0;
+  width: 100%; /* set the width to 100% of the parent element */
+  min-width: 100px; /* set a minimum width */
 }
 header .navbar {
   margin-bottom: 0px;
@@ -84,6 +86,9 @@ header .navbar-default {
 header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
+header .navbar-default .navbar-nav li {
+  position: relative;
+}
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
@@ -92,9 +97,13 @@ header .navbar-default .navbar-nav li a {
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
-
 header .sub-menu {
   display: none;
+  position: absolute;
+  z-index: 9999; /* set a high z-index value */
+  background: rgba(101, 190, 17, 0.205);
+  display:inline-block; /* set the display to inline-block */
+  min-width: 100px; /* set a minimum width */
 }
 header .sub-menu li {
   background: #ccc;
@@ -102,6 +111,7 @@ header .sub-menu li {
 header .sub-menu li a {
   color: #000;
 }
+
 
 /*---------------------------------------------
 					Index Start
