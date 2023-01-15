@@ -69,6 +69,8 @@ a:active {
 header {
   background: #fff;
   padding: 20px 0;
+  width: 100%; /* set the width to 100% of the parent element */
+  min-width: 100px; /* set a minimum width */
 }
 header .navbar {
   margin-bottom: 0px;
@@ -100,6 +102,8 @@ header .sub-menu {
   position: absolute;
   z-index: 9999; /* set a high z-index value */
   background: #ccc;
+    display:inline-block; /* set the display to inline-block */
+  min-width: 100px; /* set a minimum width */
 }
 header .sub-menu li {
   background: #ccc;
