@@ -7,8 +7,20 @@
       $(this).find(".sub-menu").slideToggle();
     });
   });
-</script>
 
+  $(document).ready(function(){
+  var scrollIndicator = $(".scroll-indicator");
+  var header = $("header");
+  header.scroll(function(){
+    if (header.scrollTop() > 0) {
+      scrollIndicator.addClass("scrolled");
+    } else {
+      scrollIndicator.removeClass("scrolled");
+    }
+  });
+});
+
+</script>
 
 
 <header>
@@ -47,6 +59,7 @@
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
+        <div class="scroll-indicator"></div>
       </div>
     </div>
   </div>
