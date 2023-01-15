@@ -93,6 +93,15 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 
+header .sub-menu {
+  display: none;
+}
+header .sub-menu li {
+  background: #ccc;
+}
+header .sub-menu li a {
+  color: #000;
+}
 
 /*---------------------------------------------
 					Index Start
