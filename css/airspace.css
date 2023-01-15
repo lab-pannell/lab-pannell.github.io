@@ -103,6 +103,7 @@ header .sub-menu {
   z-index: 9999; /* set a high z-index value */
   background: rgba(101, 190, 17, 0.205);
   min-width: 200px; /* set a minimum width */
+  min-height: 40px; /* set a minimum width */
 }
 header .sub-menu li {
   background: rgba(101, 190, 17, 0.205);
@@ -111,7 +112,7 @@ header .sub-menu li a {
   color: #000;
 }
 header .sub-menu li a:hover {
-  background: rgb(75, 119, 34);
+  color: rgb(75, 119, 34);
 }
 
 /*---------------------------------------------
