@@ -101,11 +101,11 @@ header .sub-menu {
   display: none;
   position: absolute;
   z-index: 9999; /* set a high z-index value */
-  background: rgba(101, 190, 17, 0.205);
+  background: rgba(255, 255, 255, 0.205);
   min-width: 200px; /* set a minimum width */
 }
 header .sub-menu li {
-  background: rgba(101, 190, 17, 0.205);
+  background: rgba(255, 255, 255, 0.24);
   min-height: 30px; /* set a minimum width */
   display: flex;
   align-items: center;
