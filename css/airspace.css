@@ -101,7 +101,7 @@ header .sub-menu {
   display: none;
   position: absolute;
   z-index: 9999; /* set a high z-index value */
-  background: rgba(101, 190, 17, 0.205);
+  background: #ccc;
   display:inline-block; /* set the display to inline-block */
   min-width: 100px; /* set a minimum width */
 }
