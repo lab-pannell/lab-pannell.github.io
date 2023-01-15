@@ -84,6 +84,9 @@ header .navbar-default {
 header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
+header .navbar-default .navbar-nav li {
+  position: relative;
+}
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
@@ -95,6 +98,9 @@ font header .navbar-default .navbar-nav li a:hover {
 
 header .sub-menu {
   display: none;
+  position: absolute;
+  z-index: 9999; /* set a high z-index value */
+  background: #ccc;
 }
 header .sub-menu li {
   background: #ccc;
