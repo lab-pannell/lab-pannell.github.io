@@ -102,15 +102,17 @@ header .sub-menu {
   position: absolute;
   z-index: 9999; /* set a high z-index value */
   background: rgba(101, 190, 17, 0.205);
-  min-width: 100px; /* set a minimum width */
+  min-width: 200px; /* set a minimum width */
 }
 header .sub-menu li {
-  background: #ccc;
+  background: rgba(101, 190, 17, 0.205);
 }
 header .sub-menu li a {
   color: #000;
 }
-
+header .sub-menu li a:hover {
+  background: rgb(75, 119, 34);
+}
 
 /*---------------------------------------------
 					Index Start
