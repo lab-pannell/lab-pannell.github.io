@@ -102,7 +102,7 @@ header .sub-menu {
   position: absolute;
   z-index: 9999; /* set a high z-index value */
   background: #ccc;
-    display:inline-block; /* set the display to inline-block */
+  display:inline-block; /* set the display to inline-block */
   min-width: 100px; /* set a minimum width */
 }
 header .sub-menu li {
