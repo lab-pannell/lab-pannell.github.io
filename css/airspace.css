@@ -187,7 +187,6 @@ header .sub-menu li a {
 	service Start
 --*/
 #service {
-  text-align: center;
   padding: 30px 0;
 }
 #service .service-item {
@@ -198,11 +197,13 @@ header .sub-menu li a {
   color: #4A4656;
 }
 #service .service-item h4 {
+  text-align: center;
   padding-top: 10px;
   margin: 0;
   color: #666;
 }
 #service .service-item p {
+  text-align: left;
   color: #888;
   padding-top: 10px;
   margin: 0;
