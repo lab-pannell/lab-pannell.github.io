@@ -203,6 +203,7 @@ header .sub-menu li a {
   color: #666;
 }
 #service .service-item p {
+  style="text-align: justify;"
   color: #888;
   padding-top: 10px;
   margin: 0;
