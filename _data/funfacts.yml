@@ -1,5 +1,5 @@
 - counter: 5000
-  icon: ion-ios-leaf
+  icon: ion-ios-leaf-outline
   text: Seeds sown per year (minimum)
 - counter: 10
   icon: ion-ios-timer-outline
