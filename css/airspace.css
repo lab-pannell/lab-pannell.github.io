@@ -796,6 +796,7 @@ header .sub-menu li a {
 	footer Start
 --*/
 footer {
+  position: relative;
   background: #F5F5F5;
   text-align: center;
   padding-top: 48px;
