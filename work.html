@@ -33,9 +33,8 @@ permalink: /work/
               </div>
               <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
-                  <p>Read more</p>
                   {% for post in site.posts %}
-                    <li class="{{ post.tag }}" style="padding: 15px 15px 15px 15px;">
+                    <!-- <li class="{{ post.tag }}" style="padding: 15px 15px 15px 15px;">
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
                         <img src="{{ post.image | prepend: site.baseurl }}" alt="" style="border-radius: 100% 100% 0% 0%;">
                         <div class="overly">
@@ -45,7 +44,10 @@ permalink: /work/
                       <h3 style="padding: 0px 20px;">{{ post.title }}</h3>
                       <p style="padding: 0px 35px;" class="post-date">{{ post.date | date_to_long_string }}</p>
                       <p style="padding: 0px 20px;">{{ post.content | strip_html | truncatewords: 50 }}</p>
-                  </li>
+                    </li> -->
+                    <p>
+                      {{ post.content | strip_html | truncatewords: 50 }}
+                    </p>
                   {% endfor %}
 
                 </ul>
