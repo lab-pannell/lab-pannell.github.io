@@ -45,7 +45,7 @@ permalink: /work/
                       <p style="padding: 0px 35px;" class="post-date">{{ post.date | date_to_long_string }}</p>
                       <p style="padding: 0px 20px;">{{ post.content | strip_html | truncatewords: 50 }}</p>
                     </li> -->
-                    <li class="{{ post.tag }}" style="padding: 15px 15px 15px 15px;">
+                    <li class="{{ post.tag }}">
                       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
                     </li>
                   {% endfor %}
