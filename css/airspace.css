@@ -498,17 +498,6 @@ header .sub-menu li a {
   margin: 6px;
   position: relative;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .overly {
-  filter: grayscale(100%);
-}
-#portfolio-work .block .portfolio-contant ul li:hover .position-center {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-}
 #portfolio-work .block .portfolio-contant ul li a {
   display: block;
   color: #fff;
