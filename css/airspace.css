@@ -583,3 +583,21 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+/*---------------------------------------------
+					Publication Start
+-----------------------------------------------*/
+
+#publications {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+#publications .entry {
+  margin-bottom: 20px;
+}
+#publications .entry .title {
+  font-weight: bold;
+}
+/*---------------------------------------------
+					Publication Close
+-----------------------------------------------*/
