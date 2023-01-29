@@ -17,6 +17,8 @@
  }
 
 .post-area {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   padding: 5% 15% 5% 15%;
   width: 100%;
   min-height: 100px;
@@ -31,4 +33,8 @@
 
 .post-area a:hover {
   color: #0D0017;
+}
+
+.post-image {
+  margin-right: 10px;
 }
