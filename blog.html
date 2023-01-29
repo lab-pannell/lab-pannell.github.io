@@ -18,13 +18,11 @@ permalink: /blog/
 </section>
 {% for post in site.posts %}
 <div class="post-area">
+  <img src=post.image class="post-image">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
   <p>
     {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
-  <p>
-    test
   </p>
 </div>
 {% endfor %}
