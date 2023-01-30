@@ -36,14 +36,14 @@ permalink: /work/
           <div class="portfolio-contant">
             <ul id="portfolio-contant-active">
               {% for post in site.posts %}
-              <li class="mix Branding">
+              <li class="{{ post.tag }}">
                 <a href="{{ post.url | prepend: site.baseurl }}">
-                  <img src="{{ site.baseurl }}/img/blog/blog1.png" alt="">
+                  <img src="{{ post.image | prepend: site.baseurl }}" alt="">
                   <div class="overly">
                     <div class="position-center">
                       <h2>{{ post.title }}</h2>
                       <span>{{ post.date | date_to_long_string }}</span>
-                      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+                      <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
                     </div>
                   </div>
                 </a>
