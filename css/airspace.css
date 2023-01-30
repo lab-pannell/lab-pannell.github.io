@@ -523,7 +523,7 @@
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
   font-size: 13px;
-  color: #655E7A;
+  color: #399c35;
 }
 #portfolio-work .block .portfolio-contant ul img {
   width: 100%;
@@ -536,7 +536,7 @@
   right: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.9);
-  opacity: 0;
+  opacity: 0.5;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
