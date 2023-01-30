@@ -546,6 +546,7 @@
   position: absolute;
   top: 50%;
   left: 10%;
+  right: 10%;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
   -ms-transform: translate(0%, 50%);
