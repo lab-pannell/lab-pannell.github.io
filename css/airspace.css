@@ -537,6 +537,10 @@
   bottom: 0;
   right: 0;
   left: 0;
+  opacity: 1;
+}
+#portfolio-work .block .portfolio-contant .title:hover {
+  opacity: 0;
 }
 #portfolio-work .block .portfolio-contant .overly {
   z-index: 0;
