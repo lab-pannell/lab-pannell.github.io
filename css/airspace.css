@@ -516,7 +516,7 @@
   color: #fff;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
-  font-size: 22px;
+  font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -533,6 +533,7 @@
   height: auto;
 }
 #portfolio-work .block .portfolio-contant .title {
+  font-size: 22px;
   color: #ffffff;
   z-index: 1;
   position: absolute;
