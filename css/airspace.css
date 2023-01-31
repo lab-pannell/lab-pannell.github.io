@@ -500,6 +500,9 @@
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
 }
+#portfolio-work .block .portfolio-contant ul li:hover .title {
+  opacity: 0;
+}
 #portfolio-work .block .portfolio-contant ul li:hover .position-center {
   position: absolute;
   top: 10%;
