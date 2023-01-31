@@ -530,13 +530,13 @@
   height: auto;
 }
 #portfolio-work .block .portfolio-contant .title {
-  z-index: 1; /* set a high z-index value */
+  z-index: 1;
   position: absolute;
   background: rgba(255, 255, 255, 0.9);
   opacity: 1;
 }
 #portfolio-work .block .portfolio-contant .overly {
-  z-index: 0; /* set a high z-index value */
+  z-index: 0;
   position: absolute;
   top: 0;
   bottom: 0;
