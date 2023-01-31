@@ -540,7 +540,7 @@
   opacity: 1;
   padding: 15% 10% 10% 10%;
   text-shadow: 0px 0px 40px rgb(0, 0, 0);
-  background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), 50%);
 }
 #portfolio-work .block .portfolio-contant .title:hover {
   opacity: 0;
