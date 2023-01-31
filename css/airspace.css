@@ -538,6 +538,8 @@
   right: 0;
   left: 0;
   opacity: 1;
+  padding: 7%;
+  bottom: 0;
 }
 #portfolio-work .block .portfolio-contant .title:hover {
   opacity: 0;
