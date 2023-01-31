@@ -531,7 +531,7 @@
 }
 #portfolio-work .block .portfolio-contant .title {
   z-index: 1;
-  position: absolute;
+  position: relative;
   background: rgba(255, 255, 255, 0.9);
   opacity: 1;
 }
