@@ -530,8 +530,8 @@
   height: auto;
 }
 #portfolio-work .block .portfolio-contant .title {
-  position: relative;
-  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
   opacity: 1;
 }
 #portfolio-work .block .portfolio-contant .overly {
