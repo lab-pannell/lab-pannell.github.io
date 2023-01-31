@@ -1,0 +1,42 @@
+---
+layout: page
+title: Pannell lab - Blog
+permalink: /blog/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Some news from the group</h1>
+          <p>Publications, new faces and more!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.posts %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
+  <p>
+    {{ post.content | strip_html | truncatewords: 50 }}
+  </p>
+</div>
+{% endfor %}
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Do not hesitate to contact us!</h2>
+          <p>If you are interested in learning more about our research, or if you have any questions or comments, please don't hesitate to contact us using the form available below. We look forward to hearing from you!</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Contact us!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

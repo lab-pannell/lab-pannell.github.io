@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Pannell lab - Blog
+title: Blog
 permalink: /blog/
 ---
+
 <!-- Slider Start -->
 <section id="global-header">
   <div class="container">
@@ -16,15 +17,97 @@ permalink: /blog/
     </div>
   </div>
 </section>
-{% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
-</div>
-{% endfor %}
+<!-- Portfolio Start -->
+<section id="portfolio-work">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-menu">
+            <ul>
+              <li class="filter" data-filter="all">All</li>
+              <li class="filter" data-filter=".Various">Various</li>
+              <li class="filter" data-filter=".Publication">Publications</li>
+            </ul>
+          </div>
+          <div class="portfolio-contant">
+            <ul id="portfolio-contant-active">
+              {% for post in site.posts %}
+              <li class="{{ post.tag }}">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}">
+                  <div class="overly">
+                    <div class="position-center">
+                      <h2>{{ post.title }}</h2>
+                      <span>{{ post.date | date_to_long_string }}</span>
+                      <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+                    </div>
+                  </div>
+                  <div class="title"> 
+                    <h2> {{ post.title }} </h2> 
+                    <span>{{ post.date | date_to_long_string }}</span>
+                  </div>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Clients Logo Section Start -->
+<!-- <section id="clients-logo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div id="clients-logo" class="owl-carousel">
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo1.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo2.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo3.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo4.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo5.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo3.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo2.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo5.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo1.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo4.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo5.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/clients-logo3.png" alt="Features">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
 
 <!-- Call to action Start -->
 <section id="call-to-action">
