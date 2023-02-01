@@ -4,7 +4,7 @@ title: HooDEE counting of votes!
 author: "Ehouarn Le Faou"
 date: 2023-02-01
 tag: "mix Various"
-image: "/img/blog/blog1.png"
+image: "/img/blog/blog4.png"
 ---
 
 # Data
