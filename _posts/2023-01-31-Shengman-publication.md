@@ -2,7 +2,7 @@
 layout: post
 title: Congratulations to Shengman, a new article published!
 author: "Ehouarn Le Faou"
-date: 2023-02-01
+date: 2023-01-31
 tag: "mix Publication"
 image: "/img/blog/blog3.png"
 ---
