@@ -165,7 +165,7 @@ vote identically for them.
     res.CA<-CA(data_raw,graph=FALSE)
     ellipseCA(res.CA,ellipse=c('col'),title="PCA",col.row='#050505',col.col='#0C9C16')
 
-![]({{ site.baseurl }}/img/blog/HooDEE_Counting-of-votes_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](/img/blog/HooDEE_Counting-of-votes_files/figure-markdown_strict/unnamed-chunk-7-1.png)
 
 ## Stacked barplot
 
@@ -191,7 +191,7 @@ Distribution in stacked barplot of the note distribution for each logo:
 
     print(g1)
 
-![]({{ site.baseurl }}/img/blog/HooDEE_Counting-of-votes_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](/img/blog/HooDEE_Counting-of-votes_files/figure-markdown_strict/unnamed-chunk-9-1.png)
 
 ## Histogram
 
@@ -210,4 +210,4 @@ Distribution of notes in the form of a histogram.
       
     print(g2)
 
-![]({{ site.baseurl }}/img/blog/HooDEE_Counting-of-votes_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](/img/blog/HooDEE_Counting-of-votes_files/figure-markdown_strict/unnamed-chunk-10-1.png)
