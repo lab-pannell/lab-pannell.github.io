@@ -11,7 +11,7 @@ image: "/img/blog/blog4.png"
 
 First of all, let’s remember the logos that were voted on:
 
-<img src="AllProp.png" style="width:50.0%" />
+<img src="{{ site.baseurl }}/img/blog/HooDEE_Counting-of-votes_files/figure-markdown_strict/unnamed-chunk-7-1.png"  style="width:50.0%" />
 
 The data table collected is as follows: each voter (row) gave each logo
 (column) a note, which is an integer between 0 and 6 (rows), 0 being the
