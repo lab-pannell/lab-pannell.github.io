@@ -29,8 +29,12 @@ permalink: /publications/
         }
 
         .biblio_entry:before {
-            content: counter(biblio_entry) ". ";
+            content: counter(biblio_entry) "";
             counter-increment: biblio_entry -1;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 4rem;
+            font-weight: bold;
+            color: #6b8d6a;
         }
 
         .biblio_entry {
