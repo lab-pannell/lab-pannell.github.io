@@ -24,6 +24,10 @@ permalink: /publications/
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style>
+        ul {
+            counter-reset: biblio_entry;
+        }
+
         .biblio_entry:before {
             content: counter(biblio_entry) ". ";
             counter-increment: biblio_entry;
