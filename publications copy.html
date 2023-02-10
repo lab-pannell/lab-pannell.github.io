@@ -26,9 +26,9 @@ permalink: /publications2/
 
 
 <style>
-    .title:before {
-        content: counter(title) "";
-        counter-increment: title -1;
+    .bibtex_template:before {
+        content: counter(bibtex_template) "";
+        counter-increment: bibtex_template -1;
         font-family: 'Merriweather', sans-serif;
         font-size: 5rem;
         font-weight: bold;
@@ -54,11 +54,7 @@ permalink: /publications2/
             <div style="font-size: 1em; z-index: 1; margin-left: 20px;">
                 <span class="year"></span>,
                 <span class="journal" style="font-style: italic;"></span>
-            </div>
-        </span>
-        <span class="if archiveLocation">
-            <div style="color:black; font-size: 1em; margin-left: 30px;">
-                <a class="archiveLocation">(view online)</a>
+                <span class="if archiveLocation"></span><a class="archiveLocation">(view online)</a></span>
             </div>
         </span>
     </div>
