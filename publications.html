@@ -68,7 +68,7 @@ permalink: /publications/
             z-index: 1;
         }
 
-        .biblio_dateIssued:before { /* line break before the date display */
+        .biblio_dateIssued::before { /* line break before the date display */
             content: "\A"; 
             white-space: pre; 
         }
@@ -82,15 +82,7 @@ permalink: /publications/
         }
 
         .biblio_pid::before {
-            content: "\f19c";
-            font-family: FontAwesome;
-            font-weight: 900;
-            display: inline-block;
-            margin-right: 2px;
-        }
-        
-        .biblio_pid::before {
-            content: "\f19c";
+            content: "\f08e";
             font-family: FontAwesome;
             font-weight: 900;
             display: inline-block;
@@ -98,7 +90,7 @@ permalink: /publications/
         }
 
         .biblio_isiid::before {
-            content: "\f0c3";
+            content: "\f08e";
             font-family: FontAwesome;
             font-weight: 900;
             display: inline-block;
@@ -106,7 +98,15 @@ permalink: /publications/
         }
 
         .biblio_pmid::before {
-            content: "\f518";
+            content: "\f08e";
+            font-family: FontAwesome;
+            font-weight: 900;
+            display: inline-block;
+            margin-right: 2px;
+        }
+
+        .biblio_urn::before {
+            content: "\f08e";
             font-family: FontAwesome;
             font-weight: 900;
             display: inline-block;
