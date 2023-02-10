@@ -45,6 +45,11 @@ permalink: /publications/
             z-index: 2;
         }
 
+        .biblio_author {
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
+        }
+
         .biblio_title {
             font-size: 1.3em;
             font-weight: bold;
@@ -63,7 +68,7 @@ permalink: /publications/
             z-index: 1;
         }
 
-        .biblio_dateIssued:before {
+        .biblio_dateIssued:before { /* line break before the date display */
             content: "\A"; 
             white-space: pre; 
         }
@@ -83,7 +88,7 @@ permalink: /publications/
             display: inline-block;
             margin-right: 2px;
         }
-
+        
         .biblio_pid::before {
             content: "\f19c";
             font-family: FontAwesome;
