@@ -60,16 +60,28 @@ permalink: /publications2/
             <span class="if journal">
                 <div style="font-size: 1em; z-index: 1; margin-left: 20px;">
                     <span class="journal" style="font-style: italic;"></span>
-                    <span class="if archiveLocation">
-                        <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">[DOI]</a>
-                        <a class="bibtexVar" href="+ARCHIVELOCATION+" extra="archiveLocation">[SERVAL]</a>
+
+
+                    <!-- Links (DOI and SERVAL) -->
+                    <span class="if !doi">
+                        <span class="if archiveLocation">
+                            <a class="bibtexVar" href="+ARCHIVELOCATION+" extra="archiveLocation"
+                                target="_blank">[SERVAL]</a>
+                        </span>
+                    </span>
+                    <span class="if !archiveLocation">
+                        <span class="if doi">
+                            <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi" target="_blank">[DOI]</a>
+                        </span>
                     </span>
                     <span class="if doi">
-                        <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi" target="_blank">[DOI]</a>
+                        <span class="if archiveLocation">
+                            <a class="bibtexVar" href="+ARCHIVELOCATION+" extra="archiveLocation"
+                                target="_blank">[SERVAL]</a>
+                        </span>
                     </span>
-                    <span class="if archiveLocation">
-                        <a class="bibtexVar" href="+ARCHIVELOCATION+" extra="archiveLocation" target="_blank">[SERVAL]</a>
-                    </span>
+
+
                 </div>
             </span>
         </span>
