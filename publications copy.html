@@ -24,13 +24,30 @@ permalink: /publications2/
 <bibtex src="{{ site.baseurl }}/references.bib"></bibtex>
 
 
+
+<style>
+    .title:before {
+        content: counter(title) "";
+        counter-increment: title -1;
+        font-family: 'Merriweather', sans-serif;
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: right;
+        color: #00000023;
+        position: absolute;
+        left: 15%;
+    }
+</style>
+
+
 <!-- Template of the entries -->
 <div class="bibtex_template" style="margin: 50px 20% 50px 20%;">
     <div style="font-size: 1.3em; font-weight: bold; font-family: 'Merriweather', serif; z-index: 1;">
         <span class="title"></span>
     </div>
     <div class="if author">
-        <div style="font-weight: bold; font-family: 'Merriweather', serif; color: #3c8b24; font-size: 1.1em; margin-left: 5px 0px 5px 20px;">
+        <div
+            style="font-weight: bold; font-family: 'Merriweather', serif; color: #3c8b24; font-size: 1.1em; margin-left: 5px 0px 5px 20px;">
             <span class="author"></span>
         </div>
         <span class="if journal">
