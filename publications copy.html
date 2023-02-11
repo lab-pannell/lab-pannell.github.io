@@ -19,37 +19,6 @@ permalink: /publications2/
 </section>
 
 
-
-<script>
-    var text = document.getElementById("text");
-    var showMoreButton = document.getElementById("showMoreButton");
-    var showLessButton = document.getElementById("showLessButton");
-    var originalText = text.innerHTML;
-
-    function truncateText() {
-        var truncatedText = originalText.split(" ").slice(0, 50).join(" ") + "...";
-        text.innerHTML = truncatedText;
-    }
-
-    function showFullText() {
-        text.innerHTML = originalText;
-    }
-
-    showMoreButton.addEventListener("click", function () {
-        showFullText();
-        showMoreButton.style.display = "none";
-        showLessButton.style.display = "inline-block";
-    });
-
-    showLessButton.addEventListener("click", function () {
-        truncateText();
-        showMoreButton.style.display = "inline-block";
-        showLessButton.style.display = "none";
-    });
-
-    truncateText();
-</script>
-
 <!-- Publications -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 <bibtex src="{{ site.baseurl }}/references.bib"></bibtex>
@@ -87,14 +56,12 @@ permalink: /publications2/
         </span>
     </div>
 
-    <!-- Abstract -->
+    <!-- Abstract
     <div class="if abstract">
-        <div id="textContainer" style="font-size: 1em; z-index: 1; margin: 2% 10% 2% 10%;">
+        <div style="font-size: 1em; z-index: 1; margin: 2% 10% 2% 10%;">
             <span id="text" class="abstract"></span>
-            <button id="showMoreButton">Show More</button>
-            <button id="showLessButton" style="display:none;">Show Less</button>
         </div>
-    </div>
+    </div>-->
 </div>
 
 
