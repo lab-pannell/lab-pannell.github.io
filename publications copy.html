@@ -68,25 +68,29 @@ permalink: /publications2/
 <div class="bibtex_structure">
     <div class="sections bibtextypekey">
         <div class="section article">
-            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">Peer-revriewed articles</h1>
+            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">
+                Peer-revriewed articles</h1>
             <div class="sort year" extra="DSC number">
                 <div class="templates"></div>
             </div>
         </div>
         <div class="section book">
-            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">Books</h1>
+            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">Books
+            </h1>
             <div class="sort year" extra="DSC number">
                 <div class="templates"></div>
             </div>
         </div>
         <div class="section inproceedings">
-            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">Conference and Workshop Papers</h1>
+            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">
+                Conference and Workshop Papers</h1>
             <div class="sort year" extra="DSC number">
                 <div class="templates"></div>
             </div>
         </div>
         <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
-            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">Other Publications</h1>
+            <h1 style="margin: 50px 5% 50px 5%; border-bottom: 1px solid rgb(78, 78, 78); padding-bottom: 5px;">Other
+                Publications</h1>
             <div class="sort year" extra="DSC number">
                 <div class="templates"></div>
             </div>
@@ -97,7 +101,8 @@ permalink: /publications2/
 
 <div style="display: flex; justify-content: center; margin: 3% 0px 3% 0px;">
     <!-- Search bar -->
-    <input type="text" class="bibtex_search" id="searchbar" placeholder="Search publications" style="margin: 0px 5px 0px 5px;">
+    <input type="text" class="bibtex_search" id="searchbar" placeholder="Search publications"
+        style="margin: 0px 5px 0px 5px;">
     <!-- Filters -->
     <select class="bibtex_search" style="margin: 0px 5px 0px 5px;">
         <option value="">All</option>
@@ -106,6 +111,12 @@ permalink: /publications2/
         <option value="2001|2002|2003|2004|2005|2006|2007|2008|2009|2010">2001-2010</option>
         <option value="2011|2012|2013|2014|2015|2016|2017|2018|2019|2020">2011-2020</option>
         <option value="2021|2022|2023">2021-2023</option>
+    </select>
+</div>
+
+<div>
+    <select class="bibtex_search bibtex_generate_{keywords}" search="{keywords}" bibtex_split_by=", ">
+        <option value="">Keywords</option>
     </select>
 </div>
 
