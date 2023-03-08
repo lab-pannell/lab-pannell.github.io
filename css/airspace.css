@@ -387,6 +387,9 @@
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 #global-header:before {
   content: "";
