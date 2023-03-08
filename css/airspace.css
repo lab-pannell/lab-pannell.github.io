@@ -294,8 +294,8 @@
  }
 
 
- /*-- Feature 1 --*/
- #feature1 {
+ /*-- Feature 2 --*/
+ #feature2 {
   background: url("../img/Study - Msex sys M. annua.png");
   background-position: 50% 94px;
   width: 100%;
@@ -317,16 +317,16 @@
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#feature1 h2 {
+#feature2 h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature1 p {
+#feature2 p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature1 .btn-view-works {
+#feature2 .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
