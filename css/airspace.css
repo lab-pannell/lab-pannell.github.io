@@ -60,9 +60,11 @@
  }
  .section-title p {
    font-family: 'Merriweather', serif;
-   font-style: italic;
+   font-size: 14px;
+   line-height: 1.8;
    color: #666;
  }
+
  /*--
    Header Start
  --*/
