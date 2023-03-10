@@ -54,7 +54,6 @@
    margin-bottom: 70px;
  }
  .section-title h2 {
-   text-transform: uppercase;
    font-size: 28px;
    font-weight: 600;
  }
@@ -202,7 +201,7 @@
  #service .service-item h4 {
    padding-top: 10px;
    margin: 0;
-   color: #666;
+   color: #000000;
  }
  #service .service-item p {
    color: #888;
