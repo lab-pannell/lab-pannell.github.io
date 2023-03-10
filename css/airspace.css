@@ -68,6 +68,7 @@ a:active {
 }
 
 .section-title p {
+  text-align: justify;
   font-family: 'Merriweather', serif;
   font-size: 14px;
   line-height: 1.8;
@@ -245,7 +246,7 @@ header .sub-menu li a {
 }
 
 #service .service-item p {
-  text-justify: auto;
+  text-align: justify;
   color: #888;
   padding-top: 10px;
   margin: 0;
