@@ -7,7 +7,7 @@ tag: "mix Publication"
 image: "/img/blog/blog5.png"
 ---
 
-<img src="/img/blog/blog5.1.jpg" alt="A great evening!" style="height: 600px; width:800px;"/>
+<img src="/img/blog/blog5.1.jpg" alt="A great hike!" style="height: 446px; width:1100px;"/>
 
 Switzerland, renowned for its stunning landscapes, boasts an exceptional combination of majestic peaks, lush valleys, and a diverse range of flora. For nature enthusiasts and botanists alike, the Swiss mountains offer an extraordinary playground to explore the wonders of alpine plant life. Our group welcomed for this hike and to give a seminar José María Fernández-Palacios from Tenerife (Spain). José María Fernández-Palacios, born in Las Palmas de Gran Canaria in 1958, is a renowned Ecologist and Professor at the University of La Laguna. He specializes in Island Ecology and Biogeography and leads the university's research group in this field. His diverse research interests also encompass Forest Dynamics, particularly focusing on laurisilva and pine forests, as well as Paleoecology.
 
