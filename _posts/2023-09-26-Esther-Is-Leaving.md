@@ -2,12 +2,13 @@
 layout: post
 title: Goodbye Esther!
 author: "Ehouarn Le Faou"
-date: 2023-01-13
+date: 2023-09-26
 tag: "mix Publication"
 image: "/img/blog/blog6.png"
 ---
 
-<img src="/img/blog/blog6.1.jpg" alt="A great hike!" style="height: 446px; width:1100px;"/>
+<img src="/img/blog/blog6.1.jpg" alt="A great hike!" style="height: 446px; width:1100px;"/> 
+
 
 Today, we celebrate the departure of our esteemed colleague, Esther, a colleague who only stayed with our group for a short time, but who brought the New Zealand spirit to our little team!
 
