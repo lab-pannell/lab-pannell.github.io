@@ -4,9 +4,8 @@ title: First Lab Retreat
 author: "Ehouarn Le Faou"
 date: 2023-10-03
 tag: "mix Publication"
-image: "/img/blog/blog6.png"
+image: "/img/blog/blog7.png"
 ---
-
 
 On the first day of the week, the group embarked on a brief day-long retreat to the rural region of Switzerland, located to the north of Lausanne.
 
