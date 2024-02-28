@@ -3,7 +3,7 @@ layout: post
 title: A hike in the Swiss Alps
 author: "Ehouarn Le Faou"
 date: 2023-06-08
-tag: "mix Publication"
+tag: "mix Various"
 image: "/img/blog/blog5.png"
 ---
 

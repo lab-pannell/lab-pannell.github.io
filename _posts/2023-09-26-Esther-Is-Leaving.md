@@ -3,7 +3,7 @@ layout: post
 title: Goodbye Esther!
 author: "Ehouarn Le Faou"
 date: 2023-09-26
-tag: "mix Publication"
+tag: "mix Various"
 image: "/img/blog/blog6.png"
 ---
 
