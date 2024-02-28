@@ -3,7 +3,7 @@ layout: post
 title: Lunar New Year 2024
 author: "Ehouarn Le Faou"
 date: 2024-02-05
-tag: "mix Various"
+tag: "mix Group"
 image: "/img/blog/blog8.1.webp"
 ---
 
