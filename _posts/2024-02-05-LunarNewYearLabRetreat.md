@@ -1,8 +1,8 @@
 ---
 layout: post
-title: First Lab Retreat
+title: Lunar New Year 2024
 author: "Ehouarn Le Faou"
-date: 2023-10-03
+date: 2023-02-05
 tag: "mix Various"
 image: "/img/blog/blog8.1.webp"
 ---
