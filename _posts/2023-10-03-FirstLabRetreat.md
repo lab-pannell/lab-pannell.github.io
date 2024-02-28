@@ -3,7 +3,7 @@ layout: post
 title: First Lab Retreat
 author: "Ehouarn Le Faou"
 date: 2023-10-03
-tag: "mix Various"
+tag: "mix Group"
 image: "/img/blog/blog7.png"
 ---
 
