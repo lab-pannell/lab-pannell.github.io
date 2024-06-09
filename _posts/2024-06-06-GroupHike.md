@@ -2,7 +2,7 @@
 layout: post
 title: A group retreat in the Swiss Alps
 author: "Ehouarn Le Faou"
-date: 2023-06-08
+date: 2024-06-06
 tag: "mix Group"
 image: "/img/blog/blog10.webp"
 ---
