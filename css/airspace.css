@@ -675,6 +675,7 @@ header .sub-menu li a {
   position: absolute;
   bottom: 0;
   opacity: 1;
+  width: 367.3px;
   padding: 15% 10% 10% 10%;
   text-shadow: 0px 0px 10px rgb(0, 0, 0);
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 70%);
